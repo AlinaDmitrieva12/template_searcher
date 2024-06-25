@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+}
+
+.children {
+    position: absolute;
+    width: fit-content;
+    right: inherit;
+    top: inherit;
+}
