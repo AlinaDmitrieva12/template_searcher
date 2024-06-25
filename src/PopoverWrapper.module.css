@@ -8,3 +8,19 @@
     right: inherit;
     top: inherit;
 }
+
+.button
+{
+    padding: 10px 16px;
+    font-size: 16px;
+    border: 2px solid #ba66ff;
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+    transition: background-color ease 0.2s;
+    width: fit-content;
+}
+
+.button:hover {
+    background: #e8c5fc;
+}

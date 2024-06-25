@@ -3,41 +3,71 @@
     margin: 60px 50px 50px;
     display: flex;
     gap: 30px;
-    align-items: center;
+}
+
+.input {
+    font-size: 16px;
+    border: 2px solid #282c34;
+    border-radius: 16px;
+    padding-inline: 12px;
+    height: 40px;
+    min-width: 400px;
+}
+
+.list {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+    background: white;
+}
+
+.help_list {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+    background: white;
+    width: 500px;
+}
+
+.help_buttons {
+    font-size: 16px;
+    width: 250px;
+    border: none;
+    padding: 10px;
+    background-color: #e8c5fc;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .text
 {
-    /*background-color: #61dafb;*/
-    padding: 30px;
-    /*border: 2px solid blue;*/
-    /*border-radius: 12px;*/
+    padding-block: 30px;
+    padding-inline: 50px;
+    text-align: left;
 }
 
 .selected {
     background: #9ddd67;
 }
 
-.text:hover
-{
-
-}
-
 .button
 {
     padding: 10px 16px;
-    font: normal 16px "Roboto";
-    border: 2px solid deeppink;
+    font-size: 16px;
+    border: 2px solid #ba66ff;
     border-radius: 12px;
     background: white;
     cursor: pointer;
     transition: background-color ease 0.2s;
     width: fit-content;
-
 }
 
 .button:hover {
-    background: lightpink;
+    background: #e8c5fc;
 }
 
 .accordion {
@@ -132,18 +162,7 @@ input:checked + section.box .box-title:before {
     transform: rotate(90deg);
 }
 
-.help_button {
-    position: absolute;
-    margin-left: 900px;
-    background-color: #ff90c7;
-    border-radius: 20px;
-}
 
-.help_buttons {
-    width: 250px;
-    background-color: #ffb5d9;
-    border-radius: 20px;
-}
 
 
 
